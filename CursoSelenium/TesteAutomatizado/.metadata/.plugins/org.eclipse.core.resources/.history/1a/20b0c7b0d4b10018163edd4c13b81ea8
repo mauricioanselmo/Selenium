@@ -1,0 +1,14 @@
+package br.com.models;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OpenBrowser
+{
+      public void chromeMethod()
+      {
+        String exePath = "D:\\Sudhakar DND\\Selenium_Eclipse\\JAR files\\chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver", exePath);
+        WebDriver driver = new ChromeDriver();
+      }
+}

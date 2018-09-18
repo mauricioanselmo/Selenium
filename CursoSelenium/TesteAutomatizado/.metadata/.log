@@ -1,0 +1,21 @@
+!SESSION 2018-09-06 12:45:10.381 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data file:/C:/Users/X107937/Desktop/Alura/CursoSelenium/TesteAutomatizado/ -product org.eclipse.epp.package.java.product
+
+This is a continuation of log file C:\Users\X107937\Desktop\Alura\CursoSelenium\TesteAutomatizado\.metadata\.bak_0.log
+Created Time: 2018-09-06 13:54:34.976
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2018-09-06 13:54:34.978
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2018-09-06 13:54:34.979
+!MESSAGE session context was:(profile=C__Program Files_Java-Photon_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-09-06 13:54:34.979
+!MESSAGE No repository found containing: osgi.bundle,org.testng,6.14.3.r201802240500
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-09-06 13:54:34.979
+!MESSAGE No repository found containing: osgi.bundle,org.testng.source,6.14.3.r201802240500
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2018-09-06 13:54:34.979
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.testng.p2.feature,6.14.3.r201802240500

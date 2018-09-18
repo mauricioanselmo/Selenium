@@ -1,0 +1,7 @@
+package br.com.scripts;
+
+import br.com.models.TestBase;
+
+public class PrimeiroScript extends TestBase {
+
+}

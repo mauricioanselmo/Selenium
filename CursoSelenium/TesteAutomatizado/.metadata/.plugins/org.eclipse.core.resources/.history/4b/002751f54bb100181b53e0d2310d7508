@@ -1,0 +1,28 @@
+package br.com.models;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TesteAutomatizado extends OpenBrowser{
+
+    public static void main(String[] args) {
+        // abre Chrome
+    	System.setProperty("webdriver.chrome.driver", "C:\\Users\\X107937\\Desktop\\S2M\\chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+
+        // acessa o site do google
+        chromeMethod();
+        driver.get("https://s2m.santanderbr.pre.corp/evolucao/#/home");
+
+        // digita no campo com nome "q" do google
+        WebElement campoDeMenu = driver.findElement(By.xpath("//*[@id=\"s2mHeader\"]/div[1]/i"));
+        campoDeMenu.click();
+       // WebElement campoDeTexto = driver.findElement(By.name("q"));
+        //campoDeTexto.sendKeys("Caelum");
+
+        // submete o form
+        //campoDeTexto.submit();
+
+    }
+}

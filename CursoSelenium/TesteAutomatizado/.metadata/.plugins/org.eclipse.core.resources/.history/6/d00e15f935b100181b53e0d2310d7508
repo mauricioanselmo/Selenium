@@ -1,0 +1,20 @@
+package br.com.pgobjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class pageObjectsMenu {
+
+	public static WebElement element_buttonMenu(WebDriver driver) {
+		WebElement element = null;
+		try {
+			element = driver.findElement(By.xpath("//*[@id=\"s2mHeader\"]/div[1]/i"));
+
+		} catch (Exception e) {
+			e.getMessage();
+		}
+		return element;
+	}
+
+}

@@ -1,0 +1,6 @@
+package br.com.models;
+
+public class NewMethod extends OpenBrowser {
+	chromeMethod();
+	  driver.get("http://www.google.com");
+}

@@ -1,0 +1,18 @@
+package br.com.scripts;
+
+import org.junit.Test;
+
+import br.com.models.TestBase;
+import br.com.pgobjects.PageObjectsMenu;
+
+public class PrimeiroScript extends TestBase {
+
+	@Test
+	public void primeiroteste() throws Exception {
+		setUrl("http://www.google.com.br");
+		Thread.sleep(10000);
+		PageObjectsMenu.element_buttonMenu(getDriver()).click();
+		Thread.sleep(10000);
+		
+	}
+}
